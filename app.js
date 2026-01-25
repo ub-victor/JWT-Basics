@@ -5,4 +5,4 @@ const express = require('express')
 const app = express
 
 
-const notFoundMiddleware = require('express')
+const notFoundMiddleware = require('./middleware/not-found')
