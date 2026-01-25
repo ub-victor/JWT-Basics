@@ -10,5 +10,5 @@ const errorHandlerMiddleware = require('./middleware/error-handler')
 
 // middleware
 
-app.request(express.static('./public'))
+app.use(express.static('./public'))
 app.use()
