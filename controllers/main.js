@@ -9,7 +9,7 @@ const dashboard = async (req, res)=>{
     Math.floor(99.99) becomes 99. 
     */
     const luckyNumber = Math.floor(Math.random()*100);
-    res.status(200).jsfon({msg:`Hello Doe`, secret: `Here is your authorized data, your luck number is ${luckyNumber}`})
+    res.status(200).json({msg:`Hello Doe`, secret: `Here is your authorized data, your luck number is ${luckyNumber}`})
 }
 
 module.exports = {
