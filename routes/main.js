@@ -1,1 +1,3 @@
-const login = 
+const login = async (req, res)=>{
+    res.send('')
+}
