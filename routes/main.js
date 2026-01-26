@@ -1,3 +1,3 @@
 const login = async (req, res)=>{
-    res.send('')
+    res.send('Fake Login/Register/Signup Route')
 }
