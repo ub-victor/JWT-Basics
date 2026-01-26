@@ -12,4 +12,6 @@ const dashboard = async (req, res)=>{
     res.status(200).json({msg:`Hello Doe`, secret: `Here is your authorized data, your luck number is ${luckyNumber}`})
 }
 
-module.exports
+module.exports = {
+    
+}
