@@ -4,5 +4,5 @@ const login = async (req, res)=>{
 
 const dashboard = async (req, res)=>{
     const luckyNumber = Math.floor(Math.random()*100)
-    res.status
+    res.status(200).json
 }
