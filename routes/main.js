@@ -4,3 +4,4 @@ const router = express.Router();
 
 const {login, dashboard} = require('../controllers/main')
 
+router.route('/dashboard')
