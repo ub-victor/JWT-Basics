@@ -15,7 +15,6 @@ app.use('/api/v1', mainRouter);
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 app.use(express.static('./public'))
-app.use(express.json())
 
 const port = process.env.PORT || 3000
 
