@@ -9,8 +9,11 @@ const login = async (req, res)=>{
     console.log(username,password)
     // mongo 
     // Validation layer
-    // use if condition
-    res.send('Fake Login/Register/Signup Route')
+    // check in the controller
+    if(!username || password){
+        res.send('Fake Login/Register/Signup Route')
+    }
+    
 }
 
 const dashboard = async (req, res)=>{
