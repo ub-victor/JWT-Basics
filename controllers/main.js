@@ -6,7 +6,7 @@
 
 const login = async (req, res)=>{
     const {username, password} = req.body
-    console.log(username,password)
+    // console.log(username,password)
     // mongo 
     // Validation layer
     // check in the controller
