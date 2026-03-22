@@ -8,6 +8,8 @@ const login = async (req, res)=>{
     const {username, password} = req.body
     console.log(username,password)
     // mongo 
+    // Validation layer
+    // use if condition
     res.send('Fake Login/Register/Signup Route')
 }
 
