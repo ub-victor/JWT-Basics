@@ -5,6 +5,8 @@
 // setup authentication so only the request with JWT can access the dashboard
 
 const login = async (req, res)=>{
+    const {username, password} = req.body
+    console.log(username,password)
     res.send('Fake Login/Register/Signup Route')
 }
 
