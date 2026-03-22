@@ -10,6 +10,7 @@ const notFoundMiddleware = require('./middleware/not-found')
 const errorHandlerMiddleware = require('./middleware/error-handler')
 
 // middleware
+app.use(express.json()) // This must always comes first so it can be the app can ready json from the json
 app.use('/api/v1', mainRouter);
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
