@@ -1,5 +1,10 @@
 /*
+What is a barrel file
 
+An index.js inside a folder acts as a barrel that re-exports modules from that folder.
+It provides a single entry point for importing everything from that directory 
+Which means Node.js will look for an index.js inside the errors folder and use its exports.
+it allows us to to not to this in the error-handler
 
 
 */
