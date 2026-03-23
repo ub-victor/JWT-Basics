@@ -3,7 +3,7 @@ const { StatusCodes} = require('http-status-codes'); // This package provides nu
 class BadRequest extends CustomAPIError {
     constructor (message){
         super(message)
-        this.StatusCodes = StatusCodes.BAD_REQUEST
+        this.statusCode = StatusCodes.BAD_REQUEST
     }
 }
 
