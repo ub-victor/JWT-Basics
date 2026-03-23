@@ -5,5 +5,5 @@ const UnauthenticatedError = require('./unauthenticated')
 module.exports = {
   CustomAPIError,
   BadRequestError,
-  UnauthenticatedError,
+  UnauthenticatedError
 }
