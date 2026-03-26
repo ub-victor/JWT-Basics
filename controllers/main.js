@@ -3,7 +3,7 @@
 // send back to front-end
 
 // setup authentication so only the request with JWT can access the dashboard
-
+const jwt = require('jsonwebtoken')
 const {CustomAPIError} = require('../errors')
 const login = async (req, res)=>{
     const {username, password} = req.body
