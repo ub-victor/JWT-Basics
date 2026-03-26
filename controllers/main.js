@@ -5,7 +5,6 @@
 // setup authentication so only the request with JWT can access the dashboard
 
 const {CustomAPIError} = require('../errors')
-// const CustomAPIError = require('../errors/custom-error')
 const login = async (req, res)=>{
     const {username, password} = req.body
     // console.log(username,password)
