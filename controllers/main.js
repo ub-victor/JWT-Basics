@@ -14,6 +14,7 @@ const login = async (req, res)=>{
     if(!username || password){
         throw new CustomAPIError('Please provide email and password', 400)
     }
+    res.sent('Fake Login/Register/Signup Route')
     
 }
 
