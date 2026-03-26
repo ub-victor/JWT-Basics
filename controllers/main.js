@@ -12,7 +12,7 @@ const login = async (req, res)=>{
     // Validation layer
     // check in the controller
     if(!username || password){
-        throw new CustomAPIError('Please provide email and password')
+        throw new CustomAPIError('Please provide email and password', 400)
     }
     
 }
