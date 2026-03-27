@@ -29,5 +29,5 @@ const dashboard = async (req, res)=>{
 }
 
 module.exports = {
-    login,dashboard  
+    login,dashboard   
 }
